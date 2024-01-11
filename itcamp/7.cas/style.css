@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.prvi {
+  background-color: green;
+  border: 1px;
+  bottom: 10px;
+  right: 100px;
+  left: 100px;
+  
+}
+
+.manjiDivovi {
+  width: 30px;
+  height: 30px;
+}
+
+.manji {
+  background-color: brown;
+  position: absolute;
+  top: -15px;
+  right: 25px;
+  z-index: 2;
+}
+
+.josManji {
+  background-color: green;
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  z-index: 1;
+}
+
+.drugi {
+  background-color: red;
+}

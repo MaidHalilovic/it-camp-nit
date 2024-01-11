@@ -1,0 +1,1 @@
+print("maid je napametniji")

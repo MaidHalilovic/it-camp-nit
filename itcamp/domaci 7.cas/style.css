@@ -1,0 +1,52 @@
+.conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.bilijar-sto {
+  width: 600px;
+  height: 300px;
+  position:relative;
+  background-color: green;
+  border: 2px solid brown;
+  transform: rotate(90deg);
+}
+.rupa {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+}
+.rupa-zelena {
+  top: 0;
+  left: 0;
+  background-color:pink;
+}
+.rupa-plava {
+  top: 0;
+  right: 0;
+  background-color: blue;
+}
+.rupa-crvena {
+  bottom: 0;
+  left: 0;
+  transform: translateX(0%);
+  background-color: red;
+}
+.rupa-braon {
+  bottom: 0;
+  right: 50%;
+  transform: translateX(50%);
+  background-color: rgb(121, 100, 74);
+}
+.rupa-zuta {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: yellow;
+}
+.rupa-crna {
+  bottom: 0;
+  right: 0;
+  background-color: black;}
