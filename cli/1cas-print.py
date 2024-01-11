@@ -1,1 +1,0 @@
-print("maid je napametniji")
